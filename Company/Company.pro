@@ -9,14 +9,20 @@ CONFIG += c++17
 SOURCES += \
     company.cpp \
     companyforprofit.cpp \
+    companylist.cpp \
     companynotforprofit.cpp \
+    filereader.cpp \
+    filewriter.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     company.h \
     companyforprofit.h \
+    companylist.h \
     companynotforprofit.h \
+    filereader.h \
+    filewriter.h \
     mainwindow.h
 
 FORMS += \

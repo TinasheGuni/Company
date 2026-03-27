@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "companylist.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -23,7 +24,9 @@ private slots:
 
 private:
     void updateDisplay();
+    void writeFile();
 
     Ui::MainWindow *ui;
+    CompanyList *list;
 };
 #endif // MAINWINDOW_H
